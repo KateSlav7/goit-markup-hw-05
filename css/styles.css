@@ -35,7 +35,10 @@ body {
       --hero-background-color: #2f303a;
       --footer-item-color: rgba(255, 255, 255, 0.6);
       --social-icon-color:#afb1b8;
-      --footer-icon-color: rgba(255, 255, 255, 0.1);}
+      --footer-icon-color: rgba(255, 255, 255, 0.1);
+      --animate-duration: 1s;
+      --animate-delay: 1s;
+      --animate-repeat: 1;}
   
     .section-hero-background {
       background-color: var(--hero-background-color);
@@ -739,6 +742,7 @@ body {
   }
   .section-texxt{
     text-align: center;
+    color: var(--portfolio-color-title);
   }
   
   svg:not(:root) {
@@ -1017,4 +1021,57 @@ body {
   
   
   
-  
+  /* Делаем подчеркивание текущей страницы */
+.site-nav .item {
+  /* position: relative; */
+}
+.site-nav .current-line {
+  /* display: inline; */
+  position: relative;
+  bottom: -33px;
+}
+
+.site-nav .current-line::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+  bottom: 0px;
+
+  position: absolute;
+
+  /* }
+.site-nav::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: red; */
+
+  /* transform: scaleX(0.1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 2500ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
+/* .site-nav .current::after {
+  opacity: 1;
+  transform: scaleX(1);
+} */
+
+.animate__zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+.animate__animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: var(--animate-duration);
+  animation-duration: var(--animate-duration);
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
