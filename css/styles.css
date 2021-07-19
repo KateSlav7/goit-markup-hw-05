@@ -1,0 +1,701 @@
+body {
+font-family: 'Roboto', sans-serif;
+color: #212121;}
+
+.indexlogo-01 {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #2196F3;
+text-decoration:#FFFFFF;}
+
+.logo-span-01 {
+color:#2196F3;}
+
+.logo-span-header {
+color: #212121;}
+
+.header-nav {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;}
+
+.header-nav-two {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;}
+
+.header-nav-three {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;}
+
+.header-tel {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;}
+
+.header-mal {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575}
+
+.section-hero-background {
+background: #2F303A}
+
+.section-hero-color {
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;}
+
+.button-hero-section {  
+cursor: pointer;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #ffffff;
+background: #2196f3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-family: inherit;}
+
+.advantage-section-01 {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;}
+
+.advantage-section-001 {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;}
+
+.advantage-section-02 {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;}
+
+.advantage-section-002 {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;}
+
+.advantage-section-03 {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;}
+
+.advantage-section-003{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;}    
+
+.advantage-section-04 {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;}
+
+.advantage-section-004 {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;}       
+
+.what-we-do-section {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;}
+
+.what-we-do-img 
+.what-we-do-comp 
+.what-we-do-imgg 
+
+.team-section-h2 {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;}
+
+.box-igor {
+background: #FFFFFF;
+/* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;}
+
+.box-olga {
+background: #FFFFFF;
+/* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;}
+
+.box-nikolay {
+background: #FFFFFF;
+/* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;}
+
+.box-mihail {
+background: #FFFFFF;
+/* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;}
+
+.name-01 {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;}
+
+.about-name-01 {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;}
+
+.name-02 {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;}
+
+.about-olga {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;}        
+
+.name-03 {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;}
+
+.about-nikolay {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;}
+
+.name-04 {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;}
+
+.about-mikhail {font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;}  
+
+.index-footer-section {
+background: #2F303A;}
+
+.indexlogo {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #2196F3;
+text-decoration: none;}
+
+.footer-map {
+text-decoration: none;  
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #FFFFFF; }
+
+
+.logo-span {
+color:#2196F3; }
+
+.logo-span-footer {
+color:#FFFFFF;}
+
+.footer-item {
+text-decoration: none;  
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);position: absolute;}
+
+.footer-item-02 {
+text-decoration: none;  
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 60px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);}
+
+.footer-list a:focus, a:hover {
+color: #2196f3;
+background: #2F303A;}
+
+.portfoliologo-01 {
+background-color: white;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #2196F3;   
+text-decoration: #ffffff;}
+
+.logo-span-03 {
+color:#2196F3;}
+.logo-span-header-03 {
+color: black; }    
+    
+    
+ul {
+list-style: none;}
+li {
+list-style: none;}
+
+a.list-item-cheked 
+{color: #212121; }
+
+.list-item a:hover,
+.list-item a:focus { 
+color: #2196f3;
+background: #FFFFFF;}
+
+.list-item .current{
+color:#2196f3;
+text-decoration: none;}
+
+.header-nav a:hover a:focus
+.header-nav-two a:hover a:focus
+.header-nav-three a:hover a:focus {
+color: #2196f3;
+background: #FFFFFF;}
+
+.list-item {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+text-decoration: none;}
+
+.list-item-cheked-mal {
+text-decoration: none;  
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;}
+
+.list-item-cheked-tel {
+text-decoration: none;  
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;}
+
+.section-1-portfolio-textbutton button {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;
+background-color: #f5f4fa;
+/* shadow-middle */
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+font-family: inherit;}
+
+.section-1-portfolio-textbutton button:hover,
+.section-1-portfolio-textbutton button:focus {
+background-color: #2196f3;
+color: #ffffff;
+cursor: pointer;
+font-family: inherit;}
+
+.nobull {
+list-style-type: none;}
+
+.img-comp {
+background: url(portfolio1.jpg);}
+
+.img-basket {
+background: url(portfolio2.jpg);}
+
+.img-fish {
+background: url(portfolio-1.jpg);}
+
+.img-naush {
+background: url(portfolio-2.jpg);}
+
+.img-kub {
+background: url(portfolio5.jpg);}
+
+.img-displ{
+background: url(111.jpg);}
+
+.img-magaz {
+background: url(portfolio7.jpg);
+}
+.img-link {
+background: url(portfolio8.jpg);}
+
+.img-nout {
+background: url(2910404.jpg);}
+
+.portfolio-adress {
+background: #2F303A;}
+
+.footer-section {
+background: #2F303A;}
+
+.logoportfol {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #2196F3;    
+text-decoration: none;}
+
+.footer-list-01 {
+text-decoration: none;  
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);position: absolute;}
+
+.footer-list-02 {
+text-decoration: none;  
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 60px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);}
+
+.footer-list a:focus, a:hover {
+color: #2196f3;}
+
+.portfolio-h3-01 {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;}
+
+.portfolio-h3-02 {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;}
+
+.portfolio-h3-03 {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;}
+
+.portfolio-h3-04{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;}
+
+.portfolio-h3-05{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;}
+
+.portfolio-h3-06{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;}
+
+.portfolio-h3-07{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;}
+
+.portfolio-h3-08{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;}
+
+.portfolio-h3-09{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;}
+
+.portfolio-p-01{
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: #757575;}
+
+.portfolio-p-02{
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: #757575;}
+
+.portfolio-p-03{
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: #757575;}
+
+.portfolio-p-04{
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: #757575;}
+
+.portfolio-p-05{
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: #757575;}
+
+.portfolio-p-06{
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: #757575;}
+
+.portfolio-p-07{
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: #757575}
+
+.portfolio-p-08{
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: #757575;}
+
+.portfolio-p-09{
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: #757575;}
+
