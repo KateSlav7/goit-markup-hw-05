@@ -884,9 +884,7 @@ body {
       background-color: var(--accent-color);
     }
   .footer .footer-set {
-    padding-top: 60px;
-      padding-bottom: 60px;
-      list-style: none;
+   list-style: none;
   }
   
     .footer-class {
