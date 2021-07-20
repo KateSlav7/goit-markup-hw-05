@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
 <body>
@@ -46,7 +46,7 @@
     <main>
         <section class="section-hero-background">
             <h1 class="section-hero-color">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="button-hero-section primary">Заказать услугу</button>
+            <button type="button" class="button-hero-section primary animate__animated animate__pulse" type= "button" data-modal-open="">Заказать услугу</button>
         </section>
 
         <!--Особенности-команды-->
@@ -78,15 +78,30 @@
             </div>
         </section>
 
-        <section class="servis">
-            <div class="container">
+        <section class="servis"><div class="container">
                 <h2 class="title">Чем мы занимаемся</h2>
 
                 <ul class="servis-list">
-                    <li class="servis-item"><img src="./img/img.jpg" alt="" width="370" height="294"></li>
-                    <li class="servis-item"><img src="./img/imgcomp.jpg" alt="" width="370" height="294"></li>
-                    <li class="servis-item"><img src="./img/imgsl.jpg" alt="" width="370" height="294"></li>
-                </ul>
+                    <li class="servis-item">
+                    <div class="services-desktop"><img src="./img/img.jpg" 
+                    alt="Фото создание программного кода" width="370px" height="294px">
+                    <div class="services-thumb"><h3 class="services-text">Десктопные приложения</h3></div>
+                       </div></li>
+
+                    <li class="servis-item">
+                    <div class="services-desktop"><img src="./img/imgsl.jpg" 
+                    alt="Фото создание мобильных приложений" width="370" height="294">
+                    <div class="services-thumb"><h3 class="services-text">Мобильные приложения</h3></div>
+                    </div>
+                    </li>
+
+                    <li class="servis-item">
+                    <div class="services-desktop"><img src="./img/imgcomp.jpg" 
+                    alt="Фото создание дизайнерских решений" width="370" height="294">
+                    <div class="services-thumb"><h3 class="services-text">Дизайнерские решения</h3></div>
+                </div>
+                   </li>
+                   </ul>
             </div>
         </section>
 
@@ -356,5 +371,17 @@
     </div>
 </div>
 </footer>
+
+
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal-window">
+    <button type="button" class="close-btn" data-modal-close>
+        <svg class="icon-modal-close-btn" width="18px" height="18px">
+            <use href="./images/sprite9.svg#icon-Vector-11"></use>
+        </svg>
+    </button>
+    </div>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
