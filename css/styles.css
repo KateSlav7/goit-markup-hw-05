@@ -1209,8 +1209,6 @@ button, input, optgroup, select, textarea {
   box-sizing: border-box;
 }
 
-
-
 .modal-window {
   position: absolute;
   width: 528px;
@@ -1245,35 +1243,6 @@ button, input, optgroup, select, textarea {
   /* transform: translate(30%, 50%); */
   transform: scale(0.1);
 }
-
-/* @-webkit-keyframes zoomIn {
-  from {
-    opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-  50% {
-    opacity: 1;
-  }
-}
-@keyframes zoomIn {
-  from {
-    opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-  50% {
-    opacity: 1;
-  }
-}
-.animate__zoomIn {
-  -webkit-animation-name: zoomIn;
-  animation-name: zoomIn;
-  animation-duration: timeInSecs;
-  -webkit-animation-duration: timeInSecs;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-} */
 
 .portfolio-item {
   margin-left: 30px;
@@ -1364,7 +1333,7 @@ button, input, optgroup, select, textarea {
   transition: transform 250ms, color 250ms var(--transition-timing-function);
 }
 
-.portfolio-item .portfolio-thumb {
+.portfolio-item .portfolio-wind {
   position: absolute;
   top: 0;
   left: 0;
