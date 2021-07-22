@@ -1346,3 +1346,26 @@ button, input, optgroup, select, textarea {
   border: 1px solid var(--border-portfolio-color);
   border-top: none;
 }
+.portfolio-item .portfolio-overlay-text {
+  background: rgba(33, 150, 243, 0.9);
+  color: var(--text-color-white);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  letter-spacing: 0.03em;
+  padding: 63px 24px;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  transform: translateY(100%);
+  transition: transform 250ms, color 250ms var(--transition-timing-function);
+}
+
+.portfolio-item .portfolio-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
