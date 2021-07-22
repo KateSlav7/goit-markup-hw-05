@@ -1088,7 +1088,7 @@ text-transform: uppercase;
   
   
   
-  /* Делаем подчеркивание текущей страницы */
+
 .site-nav .item {
   /* position: relative; */
 }
@@ -1166,18 +1166,19 @@ text-transform: uppercase;
   position: relative;
 }
 
-
-
-
-
-
-
-
-::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: opasity 500ms var(--cubic);
+  transition: opacity 500ms var(--cubic), visibility 500ms var(--cubic);
 }
-
 .section-portfolio-button button {
   display: inline-block;
   border: 1px solid transparent;
@@ -1208,42 +1209,58 @@ button, input, optgroup, select, textarea {
 *, ::before, ::after {
   box-sizing: border-box;
 }
-
-.modal-window {
-  position: absolute;
-  width: 528px;
-  height: 581px;
-  left: 50%;
-  top: 50%;
-  background-color: #ffffff;
-  transform: translate(-50%, -50%);
+.backdrop.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
-.close-btn {
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 528px;
+  min-height: 581px;
+  padding: 15px;
+  background-color: #ffffff;
+  transform: translate(-50%, -50%) scale(1);
+}
+.close {
   position: absolute;
   top: 8px;
   right: 8px;
-  border-radius: 50%;
-  align-items: center;
+  display: flex;
   justify-content: center;
+  align-items: center;
   width: 30px;
   height: 30px;
+  box-sizing: border-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
   background-color: transparent;
-  display: flex;
-  cursor: pointer;
-  padding: 0px;
 }
-
-
-/* Прячем модальное окно */
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  /* transform: translate(30%, 50%); */
-  transform: scale(0.1);
+[type="button"], [type="reset"], [type="submit"], button {
+  -webkit-appearance: button;
 }
-
+button, select {
+  text-transform: none;
+}
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+.btn-close {
+  width: 11px;
+  fill: var(--logo-color);
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.btn-close {
+  fill: var(--logo-color);
+}
 .portfolio-item {
   margin-left: 30px;
   margin-top: 30px;
@@ -1337,4 +1354,8 @@ button, input, optgroup, select, textarea {
   position: absolute;
   top: 0;
   left: 0;
+}
+.portfolio-item-section{
+   position: relative;
+   overflow: hidden;
 }
