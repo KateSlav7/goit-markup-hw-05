@@ -803,6 +803,7 @@ text-transform: uppercase;
     .phone:hover,
     .phone:focus {
       color: var(--accent-color);
+      
     }
     
     address {
@@ -864,7 +865,7 @@ text-transform: uppercase;
   
   .company-social-icon:hover .company-icon1,
   .company-social-icon:focus .company-icon1 {
-  
+    transition: transform 250ms, color 250ms var(--transition-timing-function);
     color: #ffffff;}
   
   .company-icon + .company-icon {
@@ -872,6 +873,7 @@ text-transform: uppercase;
   }
   .company-social-icon:hover,
   .company-social-icon:focus {
+    transition: transform 250ms, color 250ms var(--transition-timing-function);
     fill: #AFB1B8;}
   
   
@@ -902,6 +904,7 @@ text-transform: uppercase;
     .client-link:hover,
     .client-link :focus {
     border: 1px solid var(--accent-color);
+    transition: transform 250ms, color 250ms var(--transition-timing-function);
     }
     .client-icons :hover {
     border: 1px solid var(--accent-color);
@@ -952,10 +955,7 @@ text-transform: uppercase;
     .set-item + .set-item {
       margin-left: 10px;
     }
-    .set-link:hover,
-    .set-link:focus {
-      background-color: var(--accent-color);
-    }
+   
   .footer .footer-set {
    list-style: none;
   }
@@ -994,6 +994,7 @@ text-transform: uppercase;
       .company-social-icon:hover .company-icon1,
       .company-social-icon:focus .company-icon1 {
         fill: var(--primary-white-color);
+        transition: transform 250ms, color 250ms var(--transition-timing-function);
       }
       
       .company-icon + .company-icon {
@@ -1002,6 +1003,7 @@ text-transform: uppercase;
       .company-social-icon:hover,
       .company-social-icon:focus {
         background-color: var(--accent-color);
+        transition: transform 250ms, color 250ms var(--transition-timing-function);
       }
   
       .client {
@@ -1032,6 +1034,7 @@ text-transform: uppercase;
       .client-link:focus {
         fill: var(--accent-color);
         border: 1px solid var(--accent-color);
+        transition: transform 250ms, color 250ms var(--transition-timing-function);
       }
   
   
@@ -1066,6 +1069,7 @@ text-transform: uppercase;
       .set-link:hover,
       .set-link:focus {
         background-color: var(--accent-color);
+        transition: transform 250ms, color 250ms var(--transition-timing-function);
       }
       
       .footer-container {
@@ -1088,9 +1092,8 @@ text-transform: uppercase;
   .set-link:focus .set-icons,
   .set-link:hover .set-icons {
     fill: #ffffff;
+    transition: transform 250ms, color 250ms var(--transition-timing-function);
   }
-  
-  
   
 
 .site-nav .item {
@@ -1323,6 +1326,7 @@ button, input, optgroup, select, textarea {
     cursor: pointer;
   box-sizing: border-box;
   display: block;
+  transition: transform 250ms, color 250ms var(--transition-timing-function);
 }
 .portfolio-item-img {
   position: relative;
